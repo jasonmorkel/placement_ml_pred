@@ -8,7 +8,6 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.preprocessing import StandardScaler
 from zipfile import ZipFile
 import os
-os.chdir('placement_ml_pred')
 
 #Kaggle API
 from kaggle.api.kaggle_api_extended import KaggleApi

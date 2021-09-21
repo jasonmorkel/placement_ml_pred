@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-import os
-os.chdir('placement_ml_pred')
 from sklearn import svm
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
